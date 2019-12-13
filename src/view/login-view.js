@@ -3,7 +3,7 @@ export default () => {
 <p>Bienvenidx</p>
   <form action="">
     <p>Si ya tienes una cuenta</p>
-    <input type="email id="email-login" placeholder="Correo Electronico" required>
+    <input type="email" id="email-login" placeholder="Correo Electronico" required>
     <input type="password" id="password-login" placeholder="Contraseña" required>
     <button id="btn-login" class="btn-general" type="submit">INGRESAR</button>
   </form>
