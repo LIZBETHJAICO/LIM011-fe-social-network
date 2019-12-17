@@ -3,8 +3,12 @@
   padding:0;
 }
 
+body{
+  width: 100%;
+}
 main {
   display: flex;
+  flex-direction: column;
 }
 .btn-social-icon {
   border-radius: 50%;
@@ -15,7 +19,26 @@ main {
   outline: none;
 }
 
-.btn-social-icon:hover {
-  box-shadow: 1px;
-  transform: translateY(-0.5px);
+.logo img {
+  width: 320px;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-login input {
+  width: 70%;
+  height: 35px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.btn-general {
+  width: 50%;
+  height: 35px;
+  margin: 5px;
+  border-radius: 10px;
 }
