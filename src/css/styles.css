@@ -4,32 +4,29 @@
 }
 
 body{
-  width: 100%;
+  width: auto;
+
+
 }
 main {
   display: flex;
   flex-direction: column;
+  
 }
 .btn-social-icon {
   border-radius: 50%;
   background: transparent;
-  width: 40px;
-  height: 40px;
   border: 0px;
-  outline: none;
+ 
 }
-
-.logo img {
-  width: 320px;
-}
-
-.form-login {
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Baloo Bhaijaan', cursive;
 }
 
-.form-login input {
+input {
   width: 70%;
   height: 35px;
   margin: 5px;
@@ -41,4 +38,10 @@ main {
   height: 35px;
   margin: 5px;
   border-radius: 10px;
+}
+
+img {
+  
+  width: 100%;
+ 
 }
