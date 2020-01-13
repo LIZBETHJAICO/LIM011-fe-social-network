@@ -28,7 +28,7 @@ export const changeView = (hash) => {
               const callbackComment = (dataComment) => {
                 const dataCommentSorted = dataComment.sort((a, b) => ((a.date < b.date) ? 1 : -1));
                 const containerComment = document.querySelector(`.comments-${post.id}`);
-                if (dataCommentSorted.length > 0) {
+                if (dataCommentSorted.length >= 0) {
                   containerComment.innerHTML = '';
                   dataCommentSorted.forEach((comment) => {
                     containerComment.appendChild(components.comment(comment));

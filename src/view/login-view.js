@@ -29,14 +29,16 @@ export default () => {
 
         
         <button id='btn-login' class='btn btn-general' type='submit'>INGRESAR</button>
-        <span class='errors' id='error-email'></span>
-        <span class='errors' id='error-message'></span>
-        <span class='errors' id='error-password'></span>
-        <span class='errors' id='error-email'></span>
+        <div class='container-errors'>
+          <span class='errors' id='error-email'></span>
+          <span class='errors' id='error-message'></span>
+          <span class='errors' id='error-password'></span>
+          <span class='errors' id='error-email'></span>
+        </div>
         <p>Ó bien ingresa con...</p>
       <button id='btn-facebook' class='btn-social-net' type='submit'><img src="https://image.flaticon.com/icons/svg/733/733547.svg" alt=""></button>
       <button id='btn-google' class='btn-social-net' type='submit'><img src="https://image.flaticon.com/icons/png/512/720/720255.png" alt=""></button>
-      <p>¿No tienes una cuenta? <a href='#/register'>Regístrate</a></p>
+      <p>¿No tienes una cuenta? <a class='c-orange' href='#/register'>Regístrate</a></p>
       </form>`;
 
   const mainElem = document.createElement('main');
