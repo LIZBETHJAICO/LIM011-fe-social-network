@@ -16,9 +16,9 @@ export default () => {
           <input type='password' class='input-password' id='password-register' placeholder='Password' required>
           <img src="https://img.icons8.com/material-rounded/24/000000/visible.png" id="btn-eye" class="eye-class">
         </div>
-        <select  id = "typeUser" >
-        <option  value = "COMPRADOR(A)" > vendedor </option>
-        <option  value = "VENDEDOR(A)" > Comprador </ option>
+        <select  class='input-text'  id = "typeUser" >
+        <option  value = "COMPRADOR(A)" >COMPRADOR(A) </option>
+        <option  value = "VENDEDOR(A)" > VENDEDOR(A) </ option>
         </select>
         <span class='errors' id='error-message'></span>
         <span class='errors' id='error-password'></span>

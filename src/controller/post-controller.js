@@ -39,8 +39,8 @@ export const eventShowPostToChange = (event) => {
   event.preventDefault();
   const btnShowPost = event.target;
   const newTextPost = btnShowPost.closest('.card-post').querySelector('#text-post');
-  // id?
   const userId = btnShowPost.closest('.card-post').querySelector('.user-post').id;
+  console.log(userId);
   const btnSave = btnShowPost.closest('.card-post').querySelector('.btn-save-change');
   const btnContSave = btnShowPost.closest('.card-post').querySelector('.update-post');
   if (currentUser().uid === userId) {

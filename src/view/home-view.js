@@ -10,7 +10,7 @@ export default (dataPosts, dataUser) => {
         <img src='${dataUser.photoURL}' alt='' id='user-photo' class='user-photo'>
         <div class='detail-user'>
           <span id='user-name' class='name-user'>${dataUser.displayName}</span>
-          <span id='user-type'>${dataUser.type}</span>
+          <span id='user-type'>${dataUser.typeUser}</span>
         </div>
       </div>
     </section>
@@ -34,6 +34,7 @@ export default (dataPosts, dataUser) => {
   mainELem.innerHTML = homeView;
   const containerPosts = mainELem.querySelector('#container-posts');
   dataPosts.forEach((post) => {
+    // publico: 1 ---- publico : 0
     if (post.type === '1' || (post.idUser === currentUser().uid && post.type === '0')) {
       containerPosts.appendChild(printPost(post));
     }
