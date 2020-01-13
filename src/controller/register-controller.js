@@ -17,7 +17,7 @@ export default (event) => {
     registerUserEmail(email.value, password.value)
       .then((result) => {
         const redirectLogin = {
-          url: 'http://localhost:5000/',
+          url: 'https://lizbethjaico.github.io/LIM011-fe-social-network/src/',
         };
         result.user.sendEmailVerification(redirectLogin).then(() => {
           console.log('Para continuar por favor revise su correo el electronico y valide');
