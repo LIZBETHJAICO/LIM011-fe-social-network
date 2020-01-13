@@ -1,11 +1,10 @@
 # Aklla - Red Social 
-
+AKLLA es una red socia directa con las personas interesadas en el arte tradicional.
 La expresión cultural peruana no tiene límites !. Existen muchos artistas que han destacado por su talento y técnica pero principalmente la pasión con la que dan forma a tan bellas creaciones  generacion tras generación.
 
 #### Resumen del Proyecto
 
 AKLLA, es un proyecto creado con el objetivo de compartir y promocionar el talento, técnica y pasión de artesanos peruanos ante los ojos del mundo.
-
 
 ####  Objetivos de aprendizaje
 
