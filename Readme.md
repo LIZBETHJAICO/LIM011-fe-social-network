@@ -18,7 +18,7 @@ Aklla esta dirigido a 2 grandes grupos de Usuarios:
 
 ![mobile-login](https://github.com/omairapalacios/LIM011-fe-social-network/blob/omaira/src/img/mobile-login.png)
 
-![mobile-home](https://github.com/omairapalacios/LIM011-fe-social-network/blob/omaira/src/img/mobile-home.png)
+![mobile-home](https://github.com/omairapalacios/LIM011-fe-social-network/blob/omaira/src/img/mobile-homes.jpg)
 
 ##### Funcionalidad:
 
@@ -43,7 +43,7 @@ Nuestros usuarios para esta primera versión de Aklla podrán:
 ### HTML y CSS
 
 * [x] [HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] [CSS `flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [X] [CSS `flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM y Web APIs
@@ -70,9 +70,9 @@ Nuestros usuarios para esta primera versión de Aklla podrán:
 
 ### Testing
 
-* [ ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
-* [ ] [Testeo asíncrono](https://jestjs.io/docs/es-ES/asynchronous)
-* [ ] [Mocking](https://jestjs.io/docs/es-ES/manual-mocks)
+* [x ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
+* [ x] [Testeo asíncrono](https://jestjs.io/docs/es-ES/asynchronous)
+* [ x] [Mocking](https://jestjs.io/docs/es-ES/manual-mocks)
 
 ### Colaboración en Github
 

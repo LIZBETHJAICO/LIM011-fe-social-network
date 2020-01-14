@@ -4,21 +4,19 @@ export const addPost = (objPost) => {
   return result;
 };
 
-export const getPosts = (callback) => {
-  const result = firebase.firestore().collection('posts').orderBy('date', 'desc')
-    .onSnapshot((querySnapshot) => {
-      const arr = [];
-      querySnapshot.forEach((doc) => {
-        const obj = {
-          id: doc.id,
-          ...doc.data(),
-        };
-        arr.push(obj);
-      });
-      callback(arr);
+export const getPosts = callback => firebase.firestore().collection('posts').orderBy('date', 'desc')
+  .onSnapshot((querySnapshot) => {
+    const arr = [];
+    querySnapshot.forEach((doc) => {
+      const obj = {
+        id: doc.id,
+        ...doc.data(),
+      };
+      arr.push(obj);
     });
-  return result;
-};
+    callback(arr);
+  });
+
 
 export const updatePost = (idPost, newTextPost) => {
   const result = firebase.firestore().collection('posts').doc(idPost).update({

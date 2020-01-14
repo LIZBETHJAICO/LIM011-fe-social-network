@@ -67,6 +67,13 @@ a{
     border: 0px;
     text-align: left;
   }
+  ul li a{
+    color: #ffffff;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+  } 
 
   .menu i, .menu a{
     padding-left: 16px;
@@ -93,14 +100,7 @@ a{
     background-color: #ff9800;
   }
   
-  ul li a{
-    color: #ffffff;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    width: 100vw;
-  }
-
+ 
   .ul-menu-mobile{
     width: 100vw;
   }
@@ -233,11 +233,13 @@ a{
     padding: 0px 10px;
     box-sizing: border-box;
   }
-
+  .container-button{
+    width: 100%;
+  }
   .form-profile{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    
     border: 1px solid #bebebe;
     box-sizing: border-box;
     padding: 0px 10px 10px;
@@ -283,7 +285,7 @@ a{
     align-items: center;
     align-content: center;
   }
-
+  
   .container-profile .user-profile{
     display: block;
     width: 100%;
@@ -294,13 +296,8 @@ a{
     font-size: 16px;
     margin-left: 15px;
   }
-
-  .user-photo{
-    margin-left: 15px;
-    height: 65px;
-    width: 65px;
-    border-radius: 50%;
-  }
+ 
+  
   .user-photos{
     margin-left: 15px;
     height: 60%;
@@ -357,11 +354,11 @@ a{
   }
 
   .comment {
-    display: inline-block;
+   
     flex-direction: column;
     box-sizing: border-box;
+    display: flex;
   }
-
   .body-comment{
     width: 100%;
     display: flex;
@@ -414,10 +411,7 @@ a{
     border-radius: 10px;
     margin: 5px;
   }
-  .comment {
-    display: flex;
-  }
-
+  
   .add-comment {
     padding: 24px 8px 0px 0px;
   }
@@ -462,7 +456,6 @@ a{
     background-color: #d6d6d6;
     box-sizing: border-box;
     border: 1px solid #bebebe;
-    box-sizing: border-box;
     border-radius: 8px 8px 0px 0px;
   }
 
@@ -549,9 +542,7 @@ a{
     height: calc(100vh - 106px);
   }
 
-  .container-button{
-    width: 100%;
-  }
+ 
 
   .button-save{
     text-align: center;
@@ -860,6 +851,12 @@ a{
   }
 
   /* Home */
+  .user-photo{
+    margin-left: 15px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+  }
 
   .profile, .container-profile{
     width: 30%;
@@ -911,10 +908,6 @@ a{
     background-color: #d6d6d6;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-  }
-
-  .user-photo{
-    border-radius: 70%;
   }
 
   .detail-user{

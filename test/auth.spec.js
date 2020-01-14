@@ -20,8 +20,8 @@ global.firebase = firebasemock.MockFirebaseSdk(
 describe('Sign In User', () => {
   it('Debería poder iniciar sesión', () => signInUserEmail('omairapalacios@gmail.com', '123456')
     .then((user) => {
-      expect(user.isAnonymous).toBe(false);
-      //  expect(user.email).toBe('omairapalacios@gmail.com');
+      // expect(user.isAnonymous).toBe(false);
+      expect(user.email).toBe('omairapalacios@gmail.com');
     }));
 });
 
@@ -42,8 +42,8 @@ describe('Sign In User with facebook', () => {
 describe('Register User with email', () => {
   it('Debería poder registrarse', () => signInUserEmail('lizbethjaico@gmail.com', '123456')
     .then((user) => {
-      // expect(user.email).toBe('lizbethjaico@gmail.com');
-      expect(user.isAnonymous).toBe(false);
+      expect(user.email).toBe('lizbethjaico@gmail.com');
+      // expect(user.isAnonymous).toBe(false);
     }));
 });
 

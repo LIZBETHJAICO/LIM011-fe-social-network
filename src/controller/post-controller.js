@@ -13,6 +13,7 @@ import { currentUser } from '../model/auth-user.js';
 export const addDataPost = (event) => {
   event.preventDefault();
   const btnShare = event.target;
+  console.log(btnShare);
   const newPost = btnShare.closest('.card-new-post').querySelector('textarea');
   const typePost = btnShare.closest('.card-new-post').querySelector('select');
   const objectPost = {
@@ -54,6 +55,7 @@ export const eventShowPostToChange = (event) => {
 export const eventUpdatePost = (event) => {
   event.preventDefault();
   const btnUpdate = event.target;
+
   const postId = btnUpdate.closest('.card-post').id;
   const newTextPost = btnUpdate.closest('.card-post').querySelector('#text-post');
   const btnSave = btnUpdate.closest('.card-post').querySelector('.btn-save-change');
